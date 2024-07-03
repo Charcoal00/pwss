@@ -445,11 +445,6 @@ header video{
     background-repeat: no-repeat;
     background-position: center;
 }
-.icon.a.one{background-image: url(./images/brain.png);}
-.icon.a.two{background-image: url(./images/acaedmics.png);}
-.icon.a.three{background-image: url(./images/progress.png);}
-.icon.a.four{background-image: url(./images/settings.png);}
-.icon.a.five{background-image: url(./images/ear.png);}
 .f-3 div h3{
     font-weight: 200;
     margin: 20px 0;
@@ -536,15 +531,6 @@ header video{
     background-size: cover;
     background-position: center;
     width: 50%;
-}
-.d-1 .d-s{
-    background-image: url(./images/science.jpg);
-}
-.d-1 .d-a{
-    background-image: url(./images/art.jpg);
-}
-.d-1 .d-c{
-    background-image: url(./images/commercial.jpg);
 }
 .d-1 > div > div{
     display: flex;
