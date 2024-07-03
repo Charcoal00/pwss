@@ -575,7 +575,6 @@ header video{
 .testmonials{
     width: 100%;
     position: relative;
-    background-image: url(./images/school.jpg);
     background-attachment: fixed;
 }
 .testmonials::after{
@@ -584,8 +583,6 @@ header video{
     z-index: -2;
     bottom: -20px;
     height: 100px;
-    width: 100%;
-    background-image: url(./images/school.jpg);
     clip-path: polygon(0% 1%, 0 88%, 2% 100%, 5% 93%, 5% 93%, 8% 99%, 9% 88%, 12% 94%, 17% 99%, 21% 100%, 27% 96%, 30% 92%, 32% 99%, 36% 98%, 39% 93%, 43% 92%, 48% 95%, 51% 90%, 54% 95%, 58% 91%, 62% 93%, 66% 93%, 71% 88%, 72% 96%, 76% 91%, 80% 92%, 83% 98%, 87% 97%, 90% 88%, 94% 95%, 97% 93%, 100% 83%, 100% 0%);
     -webkit-clip-path: polygon(0% 1%, 0 88%, 2% 100%, 5% 93%, 5% 93%, 8% 99%, 9% 88%, 12% 94%, 17% 99%, 21% 100%, 27% 96%, 30% 92%, 32% 99%, 36% 98%, 39% 93%, 43% 92%, 48% 95%, 51% 90%, 54% 95%, 58% 91%, 62% 93%, 66% 93%, 71% 88%, 72% 96%, 76% 91%, 80% 92%, 83% 98%, 87% 97%, 90% 88%, 94% 95%, 97% 93%, 100% 83%, 100% 0%);
 }
@@ -595,8 +592,6 @@ header video{
     z-index: -2;
     top: -20px;
     height: 100px;
-    width: 100%;
-    background-image: url(./images/school.jpg);
     -webkit-clip-path: polygon(100% 100%, 0% 100%, 0% 16%, 3% 3%, 7% 5%, 12% 3%, 15% 10%, 18% 2%, 23% 8%, 28% 0, 31% 9%, 33% 1%, 37% 1%, 39% 11%, 41% 1%, 46% 0, 47% 9%, 52% 0, 60% 1%, 64% 12%, 68% 3%, 73% 5%, 79% 0, 84% 11%, 88% 0, 93% 7%, 97% 0%, 100% 5%);
     clip-path: polygon(100% 100%, 0% 100%, 0% 16%, 3% 3%, 7% 5%, 12% 3%, 15% 10%, 18% 2%, 23% 8%, 28% 0, 31% 9%, 33% 1%, 37% 1%, 39% 11%, 41% 1%, 46% 0, 47% 9%, 52% 0, 60% 1%, 64% 12%, 68% 3%, 73% 5%, 79% 0, 84% 11%, 88% 0, 93% 7%, 97% 0%, 100% 5%);
 }
@@ -935,7 +930,6 @@ header video{
 }
 .faq-1{
     border-radius: 16px;
-    background-image: url(./images/question-mark.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
