@@ -580,6 +580,7 @@ header video{
 .testmonials::after{
     position: absolute;
     content: '';
+    width: 100%;
     z-index: -2;
     bottom: -20px;
     height: 100px;
@@ -590,6 +591,7 @@ header video{
     position: absolute;
     content: '';
     z-index: -2;
+    width: 100%;
     top: -20px;
     height: 100px;
     -webkit-clip-path: polygon(100% 100%, 0% 100%, 0% 16%, 3% 3%, 7% 5%, 12% 3%, 15% 10%, 18% 2%, 23% 8%, 28% 0, 31% 9%, 33% 1%, 37% 1%, 39% 11%, 41% 1%, 46% 0, 47% 9%, 52% 0, 60% 1%, 64% 12%, 68% 3%, 73% 5%, 79% 0, 84% 11%, 88% 0, 93% 7%, 97% 0%, 100% 5%);
