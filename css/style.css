@@ -208,7 +208,16 @@ nav{
     transition: all ease 0.3s;
 }
 
+
+button{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    border: none;
+}
 .menueBar{
+    width: auto;
+    height: auto;
     display: none;
     position: absolute;
     top: 22%;
@@ -217,8 +226,6 @@ nav{
     box-sizing: border-box;
     margin-top: 2.5px;
     overflow-x: hidden;
-    user-select: none;
-    border: none;
     background-color: transparent;
     
     transition: all 0.2s linear;
@@ -229,9 +236,9 @@ nav{
 .menueBar span{
     z-index: 5;
     display: block;
-    width: 20px;
+    width: 24px;
     height: 2px;
-    margin: 3px 0;
+    margin: 5px 0;
     border-radius: 20px;
     transition: all 0.2s linear;
     background-color: #000000;
@@ -284,7 +291,7 @@ header video{
 }
 .h-container{
     width: 100%;
-    height: 280px;
+    height: 300px;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -577,13 +584,16 @@ header video{
     position: relative;
     background-attachment: fixed;
 }
+
+.testmonials::after{background-image: url("../images/school.jpg");}
+.testmonials::before{background-image: url("../images/school.jpg");}
 .testmonials::after{
     position: absolute;
     content: '';
-    width: 100%;
     z-index: -2;
     bottom: -20px;
     height: 100px;
+    width: 100%;
     clip-path: polygon(0% 1%, 0 88%, 2% 100%, 5% 93%, 5% 93%, 8% 99%, 9% 88%, 12% 94%, 17% 99%, 21% 100%, 27% 96%, 30% 92%, 32% 99%, 36% 98%, 39% 93%, 43% 92%, 48% 95%, 51% 90%, 54% 95%, 58% 91%, 62% 93%, 66% 93%, 71% 88%, 72% 96%, 76% 91%, 80% 92%, 83% 98%, 87% 97%, 90% 88%, 94% 95%, 97% 93%, 100% 83%, 100% 0%);
     -webkit-clip-path: polygon(0% 1%, 0 88%, 2% 100%, 5% 93%, 5% 93%, 8% 99%, 9% 88%, 12% 94%, 17% 99%, 21% 100%, 27% 96%, 30% 92%, 32% 99%, 36% 98%, 39% 93%, 43% 92%, 48% 95%, 51% 90%, 54% 95%, 58% 91%, 62% 93%, 66% 93%, 71% 88%, 72% 96%, 76% 91%, 80% 92%, 83% 98%, 87% 97%, 90% 88%, 94% 95%, 97% 93%, 100% 83%, 100% 0%);
 }
@@ -591,15 +601,12 @@ header video{
     position: absolute;
     content: '';
     z-index: -2;
-    width: 100%;
     top: -20px;
     height: 100px;
+    width: 100%;
     -webkit-clip-path: polygon(100% 100%, 0% 100%, 0% 16%, 3% 3%, 7% 5%, 12% 3%, 15% 10%, 18% 2%, 23% 8%, 28% 0, 31% 9%, 33% 1%, 37% 1%, 39% 11%, 41% 1%, 46% 0, 47% 9%, 52% 0, 60% 1%, 64% 12%, 68% 3%, 73% 5%, 79% 0, 84% 11%, 88% 0, 93% 7%, 97% 0%, 100% 5%);
     clip-path: polygon(100% 100%, 0% 100%, 0% 16%, 3% 3%, 7% 5%, 12% 3%, 15% 10%, 18% 2%, 23% 8%, 28% 0, 31% 9%, 33% 1%, 37% 1%, 39% 11%, 41% 1%, 46% 0, 47% 9%, 52% 0, 60% 1%, 64% 12%, 68% 3%, 73% 5%, 79% 0, 84% 11%, 88% 0, 93% 7%, 97% 0%, 100% 5%);
 }
-
-.testmonials::after{background-image: url("../images/school.jpg");}
-.testmonials::before{background-image: url("../images/school.jpg");}
 .testmonials > div{
     position: relative;
     height: 500px;
@@ -705,7 +712,6 @@ header video{
 .img-age{
     width: 100px;
     height: 100px;
-    background-image: url(./images/team-2.jpg);
     border-radius: 100%;
     background-size: cover;
     background-position: center;
@@ -964,6 +970,9 @@ header video{
     ;
     
     animation: ball 2.5s linear 0s infinite reverse;
+    -moz-animation: ball 2.5s linear 0s infinite reverse;
+    -o-animation: ball 2.5s linear 0s infinite reverse;
+    -webkit-animation: ball 2.5s linear 0s infinite reverse;
     top: 0;
     left: 0;
 }
