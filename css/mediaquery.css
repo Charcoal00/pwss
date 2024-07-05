@@ -46,6 +46,10 @@
 
     .dropdown-down span{font-size: 12px;}
 
+    
+    .faq-dropdown-container-a h3{font-size: 23px;}
+    .faq-dropdown-container-b p{font-size: 16px;}
+
     .faq-2 {
         height: 766px;
     }
@@ -134,6 +138,14 @@
     .gall > div > div {
         width: 50%;
     }
+
+
+
+
+    
+    /* faq */
+    .faq-dropdown-container{width: 75%;}
+
 }
 
 
@@ -153,6 +165,7 @@
         right: -4%;
         transition: all 0.2s linear;
     }
+    .openMenu span{margin: 3px 0;}
     .top-nav .bb{
         position: absolute;
         opacity: 0;
@@ -259,17 +272,26 @@
         content: "";
         background-color: #ffffff;
         height: 100vh;
-        width: 0vh;
+        width: 0%;
         box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
     }
     .bb.change::before{
         opacity: 1;
         z-index: 2;
-        right: -124%;
-        width: 50vh;
+        right: -220%;
+        width: 455%;
         transition: all 400ms ease;
         -webkit-transition: all 400ms ease;
     }
+
+
+
+
+
+    
+    
+    /* faq */
+    .faq-dropdown-container{width: 77%;}
 }
 
 
@@ -320,6 +342,20 @@
 
     .view, .c-2 a, a
     {font-size: 14px;}
+
+
+
+
+
+    
+    
+    /* faq */
+    .header-container{height: 60vh;}
+    .faq-dropdown-container{width: 80%;}
+    .faq-dropdown-container_2s{padding: 15px;}
+    .faq-dropdown-container-a h3{font-size: 21px;}
+    .down-p{margin-top: 10px;}
+    .faq-dropdown-container-b p{font-size: 15px; line-height: 24px;}
     
 }
 
@@ -373,6 +409,9 @@
     .f-2{width: 90%;}
 
     .c-2{width: 70%;}
+
+
+    .bb.change::before{right: -250%;}
 }
 
 
@@ -423,6 +462,9 @@
     .f-3 div h3
     {font-size: 19px;}
 
+    .faq-dropdown-container-a h3{font-size: 16px;}
+    .faq-dropdown-container-b p{font-size: 14px;}
+
     .prev, .next{
         top: 43%;
         padding: 7px 15px;
@@ -432,6 +474,13 @@
 
     .faq{margin-top: 80px;}
     footer{height: 270px;}
+
+
+
+
+
+    
+    .faq-dropdown-container{width: 90%;}
 }
 
 
